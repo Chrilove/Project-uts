@@ -146,16 +146,6 @@ export default function ContactSection() {
     </main>
     </div>
   </div>
-
-    {/* Socials */}
-     <div className="mt-5">
-        <div className="d-flex justify-content-center mt-3 contact-sub-title">
-           <a href="https://twitter.com/" className="social-btn"><i className="bi bi-twitter"></i></a>
-           <a href="https://www.instagram.com/" className="social-btn"><i className="bi bi-instagram"></i></a>
-           <a href="https://id.linkedin.com/" className="social-btn"><i className="bi bi-linkedin"></i></a>
-           <a href="https://github.com/Chrilove" className="social-btn"><i className="bi bi-github"></i></a>
-         </div>
-    </div>
 </section>
  );
 }
