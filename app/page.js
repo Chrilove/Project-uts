@@ -82,18 +82,15 @@ export default function PortfolioPage() {
       <ContactSection />
       <ChatbotUI />
       <ThemeToggle />
-  
+
      {/* Footer */}
      <footer className="py-4" style={{ background: 'linear-gradient(135deg, #ffa7e3a7, #ec99ffa7)' }}>
-      {/* Socials */}
-     <div className="mt-5">
-        <div className="d-flex justify-content-center mt-3 contact-sub-title">
+     <div className="d-flex justify-content-center mt-3 contact-sub-title">
            <a href="https://twitter.com/" className="social-btn"><i className="bi bi-twitter"></i></a>
            <a href="https://www.instagram.com/" className="social-btn"><i className="bi bi-instagram"></i></a>
            <a href="https://id.linkedin.com/" className="social-btn"><i className="bi bi-linkedin"></i></a>
            <a href="https://github.com/Chrilove" className="social-btn"><i className="bi bi-github"></i></a>
          </div>
-    </div
        <div className="container text-center text-white">
          <p className="mb-2 hero-title">✨ Made by Christianty ✨</p>
          <p className="mb-0 hero-sub-title">© {new Date().getFullYear()} | All rights reserved</p>
